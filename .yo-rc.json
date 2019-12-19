@@ -1,0 +1,48 @@
+{
+  "generator-jhipster": {
+    "applicationType": "microservice",
+    "gitCompany": "",
+    "baseName": "gestiontitre",
+    "packageName": "com.fisc.gestiontitre",
+    "packageFolder": "com/fisc/gestiontitre",
+    "serverPort": 8116,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "enableSwaggerCodegen": false,
+    "messageBroker": "kafka",
+    "buildTool": "maven",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "cucumber"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "fr",
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.5.1",
+    "jwtSecretKey": "MzdiODUzY2E0N2JiNGFkMmQxY2IxYjc1M2FlMDcwMjZlZTg0YTlmZTc3NzE1NmUzZGZmOTYyNTdiZmRhNTVmZTYxZWExMDQ3NTZlMWViMWFkMjc0NGViMGMzNDJjMjZlMDM2NmFjYjhiYjE4ODIzMmRiYzJhNGVhMGQzMjlkMzU=",
+    "embeddableLaunchScript": false,
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  },
+  "git-provider": "GitHub",
+  "git-company": "sandalothier",
+  "repository-name": "jhipster-gestiontitre"
+}
